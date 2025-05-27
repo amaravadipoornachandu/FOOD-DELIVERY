@@ -70,7 +70,7 @@ const PlaceOrder = () => {
 
         if (response.data.success) {
           
-          navigate("/myorders");
+          navigate("/");
           window.location.reload();
 
         } else {
