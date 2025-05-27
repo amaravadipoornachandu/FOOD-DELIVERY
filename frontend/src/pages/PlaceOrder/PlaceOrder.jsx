@@ -54,7 +54,7 @@ const PlaceOrder = () => {
 
         if (response.data.success) {
           const { session_url } = response.data;
-          
+          window.location.replace(session_url);
           // navigate("/");
           // window.location.reload();
           
